@@ -37,6 +37,6 @@ public abstract class MenuTemplate {
                     System.out.println("Escoge una opcion valida");
                     break;
             }
-        } while (op != "0");
+        } while (!op.equals("0"));
     }
 }
